@@ -47,9 +47,6 @@ This prototype demonstrates how IoT devices can enhance our understanding of env
 
 Clone this repository to your local machine:
 
-```bash
-git clone https://github.com/XLunaXX07/CASA0014.git
-
 ### 2. Install Required Libraries
 
 Ensure the following libraries are installed in your Arduino IDE:
