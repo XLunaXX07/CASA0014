@@ -46,6 +46,10 @@ This prototype demonstrates how IoT devices can enhance our understanding of env
 ### 1. Clone the Repository
 
 Clone this repository to your local machine:
+```bash
+git clone https://github.com/XLunaXX07/CASA0014.git
+
+```
 
 ### 2. Install Required Libraries
 
@@ -71,6 +75,7 @@ Create a file named `arduino_secrets.h` in the root directory with the following
 #define SECRET_MQTTSERVER "your_mqtt_server"
 #define SECRET_MQTTPORT your_mqtt_port
 
+``` 
 ---
 
 ### 4. Upload the Code
