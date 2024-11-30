@@ -98,7 +98,7 @@ Use a tool like [MQTT Explorer](https://mqtt-explorer.com/) to verify that your 
   "humidity": 45,
   "sound_level": 75
 }
-
+```
 ---
 
 ### 6. Connect the Sensors
