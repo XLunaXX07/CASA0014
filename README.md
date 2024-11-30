@@ -1,4 +1,4 @@
-# CASA0014_YueZhu - Chrono Lumina Prototype🌟
+# CASA0014 - Chrono Lumina Prototype🌟
 
 This repository contains the Arduino-based prototype developed for the CASA0014 Connected Environments module at UCL. The project visualizes real-time environmental data using a Chrono Lumina lighting system, showcasing how IoT devices can reflect changes in the environment through dynamic RGB lighting.
 
