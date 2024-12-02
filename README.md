@@ -80,7 +80,13 @@ Create a file named `arduino_secrets.h` in the root directory with the following
 ``` 
 ---
 
-### 4. Upload the Code
+### 4. Connect the Sensors
+
+- **DHT-11 Sensor**: Connect to pin **D0**.
+- **Sound Sensor (KY-037)**: Connect analogue output to pin **A0**.
+- **RGB LED**: Connect to a suitable **PWM pin** (defined in the code).
+
+### 5. Upload the Code
 
 1. Connect your **Arduino MKR1010** to your computer.
 2. Open `CASA0014_YueZhu.ino` in the Arduino IDE.
@@ -89,7 +95,7 @@ Create a file named `arduino_secrets.h` in the root directory with the following
 
 ---
 
-### 5. Test MQTT Functionality 📶
+### 6. Test MQTT Functionality 📶
 
 Use a tool like [MQTT Explorer](https://mqtt-explorer.com/) to verify that your device is publishing data to the specified MQTT broker.
 
@@ -101,14 +107,6 @@ Use a tool like [MQTT Explorer](https://mqtt-explorer.com/) to verify that your 
   "sound_level": 75
 }
 ```
----
-
-### 6. Connect the Sensors
-
-- **DHT-11 Sensor**: Connect to pin **D0**.
-- **Sound Sensor (KY-037)**: Connect analogue output to pin **A0**.
-- **RGB LED**: Connect to a suitable **PWM pin** (defined in the code).
-
 ---
 
 ## Thank You! 🙌
