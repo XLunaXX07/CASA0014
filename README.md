@@ -2,6 +2,8 @@
 
 This repository contains the Arduino-based prototype developed for the CASA0014 Connected Environments module at UCL. The project visualizes real-time environmental data using a Chrono Lumina lighting system, showcasing how IoT devices can reflect changes in the environment through dynamic RGB lighting.
 
+![Chrono Lumina light in the lab](IMG_7324.HEIC)
+
 ✨✨✨
 
 ## Project Overview
@@ -10,6 +12,8 @@ The Chrono Lumina Prototype is designed to:
 - Collect data from the environment (temperature, humidity, and sound intensity) using sensors.
 - Visualize the data dynamically through an RGB lighting system controlled by an Arduino MKR1010.
 - Publish sensor data to an MQTT broker for monitoring and visualization.
+
+![flowchart](CASA0014.drawio.png)
 
 ✨✨✨
 
