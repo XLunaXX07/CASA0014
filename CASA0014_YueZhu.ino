@@ -21,7 +21,7 @@ WiFiClient mkrClient;
 PubSubClient client(mkrClient);
 
 // Chrono Lumina topic
-char mqtt_topic_demo[] = "student/CASA0014/light/7/pixel/";
+char mqtt_topic_demo[] = "student/CASA0014/light/19/pixel/";
 
 // Thresholds and sensitivity settings
 const float TEMP_HIGH_THRESHOLD = 30.0;
